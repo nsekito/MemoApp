@@ -36,7 +36,6 @@ export default function MemoCreateScreen(props) {
           multiline
           style={styles.input}
           onChangeText={(text) => { setBodyText(text); }}
-          autoFocus
         />
       </View>
       <CircleButton
